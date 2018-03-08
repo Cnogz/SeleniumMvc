@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+
+    <div class="form-group">
+        <label for="Name">Ismi</label>
+        <input type="text" name="Name" id="Name" value="" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Price">Fiyatı</label>
+        <input type="text" name="Price" id="Price" value="" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="UnitsInStock">Stok Miktarı</label>
+        <input type="text" name="UnitsInStock" id="UnitsInStock" value="" class="form-control" />
+    </div>
+   
+    <input type="submit" name="name" id="Submit" value="Ekle" class="form-control btn btn-primary" />
+
+
+@section scripts{
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#Submit').on('click', function () {
+            $.ajax({
+                url: "/Product/Add",
+                type: "post",
+                data: {
+                    Name: $('#Name').val(),
+                    Price: $('#Price').val(),
+                    UnitsInStock: $('#UnitsInStock').val()
+                }
+            }).then(function () {
+                alert('Product saved successfully');
+                location.href = "/Home/Index";
+            });
+        });
+    });
+
+</script>
+}

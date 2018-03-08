@@ -1,0 +1,8 @@
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\bin\Debug\SeleniumTest.dll
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\bin\Debug\SeleniumTest.pdb
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\bin\Debug\WebDriver.dll
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\bin\Debug\WebDriver.xml
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\obj\Debug\SeleniumTest.dll
+D:\Bilge Adam Projeler\SeleniumMvc\SeleniumTest\obj\Debug\SeleniumTest.pdb

@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@model IEnumerable<SeleniumMvc.Models.ORM.Entity.Product>
+<h2>Ürün Ekle</h2>
+
+<ul>
+
+    @foreach (var item in Model)
+    {
+        <li>
+            <ul>
+                <li>@item.ID</li>
+                <li>@item.Name</li>
+                <li>@item.UnitPrice</li>
+                <li>@item.UnitsInStock</li>
+            </ul>
+        </li>
+    }
+
+</ul>
+<br /><br /><br />
+
+<a href="/Product/Add">Ekle</a>
+
+
+
+
+
